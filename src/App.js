@@ -175,7 +175,6 @@ function App() {
     "Deep Learning",
     "Data Visualization",
     "TensorFlow",
-    "PyTorch",
     "Firebase",
     "Three.js",
     "Git/GitHub",
@@ -198,7 +197,7 @@ function App() {
           </p>
           <div className="space-x-4">
             <a
-              href="https://drive.google.com/file/d/16hVZ0AkmkLWo1T4-eB_6keT19wvgbYEe/view?usp=sharing"
+              href="https://drive.google.com/file/d/1W4A9jyb78QY_iYxtgLJm1UWuvCCR61eJ/view?usp=sharing"
               target="_blank"
               rel="noopener noreferrer"
               className="bg-blue-500 hover:bg-blue-600 px-6 py-3 rounded-lg font-semibold"
