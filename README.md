@@ -55,16 +55,13 @@ This is a personal portfolio website created using **React**, **Three.js**, and 
       ```
      
 4. **To Run The Project**:
+
    
-       ```
        npm start 
-       ```
     
 6. **To Deploy The Project**:
    
-       ```s
        npm run build
-       ```
        
 ## Contact
 For any questions or feedback, please reach out to GokulRaj .S at <a href="mailto:gokulsenthil0906@gmail.com">E-mail.</a>
