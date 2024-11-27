@@ -46,7 +46,7 @@ This is a personal portfolio website created using **React**, **Three.js**, and 
    git clone https://github.com/Gokulraj0906/Portfolio.git
    ```
 2. **To Install a Packages for The Project**:
-  ```bash
+  ```sh
    cd portfolio
    npm i
    ```
