@@ -132,8 +132,17 @@ function App() {
     message: "",
   });
 
+  const [error, setError] = useState("");
+
   const sendEmail = (e) => {
     e.preventDefault();
+
+    if (!formData.name || !formData.email || !formData.message) {
+      setError("Please fill out all fields before submitting.");
+      alert(error)
+      return;
+    }
+
     emailjs
       .send(
         "service_dmsevdd",
