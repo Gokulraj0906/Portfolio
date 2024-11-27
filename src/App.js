@@ -224,16 +224,16 @@ function App() {
   <div className="max-w-5xl mx-auto text-center">
     <h2 className="text-4xl font-extrabold mb-8 text-gray-900">About Me</h2>
     <p className="text-lg leading-relaxed">
-      I am currently pursuing a <span className="font-bold text-indigo-600">Bachelor of Technology in Data Science and Artificial Intelligence</span>, driven by an unwavering passion for harnessing the power of data to solve real-world challenges. My expertise lies in developing cutting-edge, data-driven models and AI systems that deliver transformative solutions across diverse industries. With a strong foundation in <span className="font-semibold text-indigo-600">machine learning, data modeling, and AI development</span>, coupled with proficiency in tools like Python, TensorFlow, and scikit-learn, I am well-equipped to tackle complex technical problems.
+      I am a <span className="font-bold text-indigo-600">B.Tech student in Data Science and AI</span>, passionate about leveraging data to solve real-world problems. My skills include <span className="font-semibold text-indigo-600">machine learning, AI development, and data modeling</span>, with experience in tools like Python, TensorFlow, and scikit-learn.
     </p>
     <p className="text-lg leading-relaxed mt-6">
-      Over the years, I’ve spearheaded impactful projects that highlight the potential of AI to revolutionize industries. One such achievement includes leading the development of a <span className="font-semibold text-indigo-600">medical imaging system</span> capable of detecting brain tumors with an impressive <span className="font-bold text-indigo-600">95.68% accuracy</span>. This involved leveraging deep learning models and optimizing data pipelines to enhance diagnostic efficiency. Another accomplishment is my work in <span className="font-semibold text-indigo-600">financial analytics</span>, where I created an algorithmic trading platform that boosted portfolio returns by <span className="font-bold text-indigo-600">15%</span>, showcasing a perfect blend of technical proficiency and strategic insight.
+      I’ve led impactful projects, such as a <span className="font-semibold text-indigo-600">medical imaging system</span> detecting brain tumors with <span className="font-bold text-indigo-600">95.68% accuracy</span> and a <span className="font-semibold text-indigo-600">financial analytics platform</span> increasing portfolio returns by <span className="font-bold text-indigo-600">15%</span>.
     </p>
     <p className="text-lg leading-relaxed mt-6">
-      Beyond technical expertise, I am deeply passionate about making a tangible impact in the tech industry. My collaborative spirit has led me to design user-centric solutions, including an <span className="font-semibold text-indigo-600">AI-powered micro-loan platform</span> that reduced loan processing time by <span className="font-bold text-indigo-600">30%</span> and empowered entrepreneurs through financial education. These experiences have honed my ability to innovate, adapt, and deliver meaningful results.
+      My passion for innovation has also driven me to design user-focused solutions like an <span className="font-semibold text-indigo-600">AI-powered micro-loan platform</span> that reduced processing time by <span className="font-bold text-indigo-600">30%</span>, empowering entrepreneurs.
     </p>
     <p className="text-lg leading-relaxed mt-6">
-      I thrive in dynamic environments where creativity and problem-solving converge. My ultimate goal is to leverage the power of <span className="font-semibold text-indigo-600">data and AI</span> to address complex challenges, improve decision-making, and create solutions that positively impact lives. I am excited to contribute to transformative projects that shape the future of technology.
+      I aim to use <span className="font-semibold text-indigo-600">data and AI</span> to address challenges, improve decision-making, and create solutions that make a meaningful impact.
     </p>
   </div>
 </section>
