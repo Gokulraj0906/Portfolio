@@ -42,22 +42,30 @@ This is a personal portfolio website created using **React**, **Three.js**, and 
 ## Installation
 
 1. **Clone the repository**:
-   ```sh
-   git clone https://github.com/Gokulraj0906/Portfolio.git
-   ```
-2. **To Install a Packages for The Project**:
-  ```sh
-   cd portfolio
-   npm i
-   ```
-3. **To Run The Project**
-    ```sh
-    npm start 
-    ```
-4. **To Deploy The Project**
-    ```sh 
-    npm run build
-    ```
+   
+      ```sh
+      git clone https://github.com/Gokulraj0906/Portfolio.git
+      ```
+   
+3. **To Install a Packages for The Project**:
+   
+     ```sh
+      cd portfolio
+      npm i
+      ```
+     
+4. **To Run The Project**:
+   
+       ```sh
+       npm start 
+       ```
+    
+6. **To Deploy The Project**:
+   
+       ```sh 
+       npm run build
+       ```
+       
 ## Contact
 For any questions or feedback, please reach out to GokulRaj .S at <a href="mailto:gokulsenthil0906@gmail.com">E-mail.</a>
 
