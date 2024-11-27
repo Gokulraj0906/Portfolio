@@ -56,13 +56,13 @@ This is a personal portfolio website created using **React**, **Three.js**, and 
      
 4. **To Run The Project**:
    
-       ```sh
+       ```
        npm start 
        ```
     
 6. **To Deploy The Project**:
    
-       ```sh 
+       ```s
        npm run build
        ```
        
