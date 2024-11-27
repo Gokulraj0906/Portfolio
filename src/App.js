@@ -352,6 +352,7 @@ function App() {
             name="name"
             value={formData.name}
             onChange={handleChange}
+            required
             className="w-full mb-4 px-4 py-2 rounded-md bg-gray-800 text-white"
           />
           <input
@@ -360,6 +361,7 @@ function App() {
             name="email"
             value={formData.email}
             onChange={handleChange}
+            required
             className="w-full mb-4 px-4 py-2 rounded-md bg-gray-800 text-white"
           />
           <textarea
@@ -367,6 +369,7 @@ function App() {
             name="message"
             value={formData.message}
             onChange={handleChange}
+            required
             className="w-full mb-4 px-4 py-2 rounded-md bg-gray-800 text-white"
           ></textarea>
           <button type="submit" className="w-full bg-blue-500 hover:bg-blue-600 py-2 rounded-md">
