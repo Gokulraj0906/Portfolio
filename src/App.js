@@ -1,7 +1,6 @@
 import React, { useEffect,useState } from "react";
 import * as THREE from "three";
 import emailjs from "emailjs-com";
-import { Analytics } from "@vercel/analytics/react"
 
 
 function App() {
@@ -195,7 +194,6 @@ function App() {
 
   return (
      <div>
-     <Analytics/>
       <section
         id="hero"
         className="relative w-full h-screen bg-gradient-to-br from-blue-600 to-purple-700 text-white flex items-center justify-center"
