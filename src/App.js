@@ -3,6 +3,7 @@ import * as THREE from "three";
 import emailjs from "emailjs-com";
 import { Analytics } from "@vercel/analytics/react"
 
+
 function App() {
   useEffect(() => {
     const container = document.getElementById("threejs-bg");
@@ -132,7 +133,6 @@ function App() {
     email: "",
     message: "",
   });
-
   const [error, setError] = useState("");
 
   const sendEmail = (e) => {
@@ -167,11 +167,11 @@ function App() {
     setFormData({ ...formData, [name]: value });
   };
   const achievements = [
-    "Participation at Vinhack 2023 By Hack2Skill",
+    "Best Student Performer Award, IBM Career Education",
+    "Organizing Committee Member, 3.0 Award by MGR-ACSSpace Technology Centre",
     "4th Place, Let's Code India Hackathon, KGISL College 2022",
     "15th Place, Hackest 5.0, DTDL Association with AWS 2024",
-    "4th Place ,HackAtom At Russian House At Chennai 2024",
-    "Best Student Performer Award, IBM Career Education",
+    "4th Place ,HackAtom At Russian House At Chennai 2024"
   ];
 
   const skills = [
@@ -185,13 +185,14 @@ function App() {
     "Deep Learning",
     "Data Visualization",
     "TensorFlow",
+    "PyTorch",
     "Firebase",
     "Three.js",
     "Git/GitHub",
     "Blockchain Development",
   ]; 
-
   
+
   return (
      <div>
      <Analytics/>
@@ -208,7 +209,7 @@ function App() {
           </p>
           <div className="space-x-4">
             <a
-              href="https://drive.google.com/file/d/1W4A9jyb78QY_iYxtgLJm1UWuvCCR61eJ/view?usp=sharing"
+              href="https://drive.google.com/file/d/16hVZ0AkmkLWo1T4-eB_6keT19wvgbYEe/view?usp=sharing"
               target="_blank"
               rel="noopener noreferrer"
               className="bg-blue-500 hover:bg-blue-600 px-6 py-3 rounded-lg font-semibold"
@@ -247,6 +248,7 @@ function App() {
     </p>
   </div>
 </section>
+
 
 
     {/* Skills Section */}
@@ -363,7 +365,6 @@ function App() {
             name="name"
             value={formData.name}
             onChange={handleChange}
-            required
             className="w-full mb-4 px-4 py-2 rounded-md bg-gray-800 text-white"
           />
           <input
@@ -372,7 +373,6 @@ function App() {
             name="email"
             value={formData.email}
             onChange={handleChange}
-            required
             className="w-full mb-4 px-4 py-2 rounded-md bg-gray-800 text-white"
           />
           <textarea
@@ -380,7 +380,6 @@ function App() {
             name="message"
             value={formData.message}
             onChange={handleChange}
-            required
             className="w-full mb-4 px-4 py-2 rounded-md bg-gray-800 text-white"
           ></textarea>
           <button type="submit" className="w-full bg-blue-500 hover:bg-blue-600 py-2 rounded-md">
