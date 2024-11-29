@@ -166,11 +166,11 @@ function App() {
     setFormData({ ...formData, [name]: value });
   };
   const achievements = [
-    "Best Student Performer Award, IBM Career Education",
-    "Organizing Committee Member, 3.0 Award by MGR-ACSSpace Technology Centre",
+    "Participation at Vinhack 2023 By Hack2Skill",
     "4th Place, Let's Code India Hackathon, KGISL College 2022",
     "15th Place, Hackest 5.0, DTDL Association with AWS 2024",
-    "4th Place ,HackAtom At Russian House At Chennai 2024"
+    "4th Place ,HackAtom At Russian House At Chennai 2024",
+    "Best Student Performer Award, IBM Career Education",
   ];
 
   const skills = [
