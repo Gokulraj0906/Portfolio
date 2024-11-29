@@ -190,7 +190,6 @@ function App() {
     "Git/GitHub",
     "Blockchain Development",
   ]; 
-  
 
   return (
      <div>
