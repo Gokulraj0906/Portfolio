@@ -23,32 +23,6 @@ function App() {
     renderer.setSize(window.innerWidth, window.innerHeight);
     container.appendChild(renderer.domElement);
 
-    // Add a Rotating Cube
-    const cubeGeometry = new THREE.BoxGeometry();
-    const cubeMaterial = new THREE.MeshStandardMaterial({ color: 0x007bff });
-    const cube = new THREE.Mesh(cubeGeometry, cubeMaterial);
-    scene.add(cube);
-
-    // Add a Rotating Sphere
-    const sphereGeometry = new THREE.SphereGeometry(1, 32, 32);
-    const sphereMaterial = new THREE.MeshStandardMaterial({ color: 0xff5733 });
-    const sphere = new THREE.Mesh(sphereGeometry, sphereMaterial);
-    sphere.position.x = 3;
-    scene.add(sphere);
-
-    // Add a Rotating Torus
-    const torusGeometry = new THREE.TorusGeometry(1.5, 0.5, 16, 100);
-    const torusMaterial = new THREE.MeshStandardMaterial({ color: 0x00ff00 });
-    const torus = new THREE.Mesh(torusGeometry, torusMaterial);
-    torus.position.y = -2;
-    scene.add(torus);
-
-    // Add a Floating Tetrahedron
-    const tetraGeometry = new THREE.TetrahedronGeometry();
-    const tetraMaterial = new THREE.MeshStandardMaterial({ color: 0xffd700 });
-    const tetrahedron = new THREE.Mesh(tetraGeometry, tetraMaterial);
-    tetrahedron.position.set(-3, 2, 0);
-    scene.add(tetrahedron);
 
     // Background Particles
     const particleGeometry = new THREE.BufferGeometry();
@@ -90,16 +64,6 @@ function App() {
     const animate = () => {
       requestAnimationFrame(animate);
 
-      cube.rotation.x += 0.01;
-      cube.rotation.y += 0.01;
-
-      sphere.rotation.y += 0.02;
-
-      torus.rotation.x += 0.02;
-      torus.rotation.z += 0.02;
-
-      tetrahedron.rotation.y += 0.015;
-      tetrahedron.position.y = Math.sin(Date.now() * 0.002) * 2;
 
       camera.position.x += (mouse.x * 2 - camera.position.x) * 0.05;
       camera.position.y += (mouse.y * 2 - camera.position.y) * 0.05;
