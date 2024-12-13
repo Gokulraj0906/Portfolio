@@ -148,7 +148,6 @@ function App() {
     "Deep Learning",
     "Data Visualization",
     "TensorFlow",
-    "PyTorch",
     "Firebase",
     "Three.js",
     "Git/GitHub",
