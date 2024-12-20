@@ -21,8 +21,7 @@ function Home() {
     );
     const renderer = new THREE.WebGLRenderer({ antialias: true });
     renderer.setSize(window.innerWidth, window.innerHeight);
-    container.endChild(renderer.domElement);
-
+    container.appendChild(renderer.domElement);
 
     // Background Particles
     const particleGeometry = new THREE.BufferGeometry();
