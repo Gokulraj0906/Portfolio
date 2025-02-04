@@ -50,7 +50,6 @@ y = scaled_df['Gender_Male'].astype(int)`}
         <p className="text-gray-600 mt-2">
           Features are defined by dropping the target column, while the target variable is set to `Gender_Male`.
         </p>
-
         <h3 className="text-xl font-semibold mt-4">4. Split Data into Training and Testing Sets</h3>
         <pre className="bg-gray-100 p-4 rounded-lg mt-2">
           <code className="text-sm text-gray-800">
