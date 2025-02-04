@@ -157,7 +157,9 @@ const GQNN = () => {
                 Explore hybrid quantum-classical models and their applications in AI and beyond.
               </p>
               <button className="mt-4 bg-purple-600 text-white px-4 py-2 rounded-lg hover:bg-purple-700 transition">
+                <a href="/gqnn_docs">
                 Learn More
+                </a>
               </button>
             </div>
           </div>
