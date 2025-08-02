@@ -79,10 +79,10 @@ const Portfolio = () => {
   ];
 
   const achievements = [
-    { icon: TrendingUp, text: 'Reduced API response time by 40%', color: 'text-emerald-500' },
-    { icon: Zap, text: 'Decreased unauthorized access by 90%', color: 'text-yellow-500' },
-    { icon: Award, text: 'Best Student Performer - IBM Career Education', color: 'text-blue-500' },
-    { icon: Users, text: '8,000+ downloads on GQNN package', color: 'text-purple-500' }
+    { icon: TrendingUp, text: 'Developed and optimized an LMS backend using Node.js and MongoDB, reducing API response time by 40%.', color: 'text-emerald-500' },
+    { icon: Zap, text: 'Built an AI-based facial recognition system with 98% accuracy using analytical approaches.', color: 'text-yellow-500' },
+    { icon: Award, text: 'Implemented JWT security and AWS S3 integration, achieving 90% fewer unauthorized access attempts and 99.9% upload success.', color: 'text-blue-500' },
+    { icon: Users, text: 'Automated API testing with Postman, cutting manual testing efforts by 60%.', color: 'text-purple-500' }
   ];
 
   const stats = [

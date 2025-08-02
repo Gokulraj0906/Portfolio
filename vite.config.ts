@@ -4,7 +4,7 @@ import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 
 export default defineConfig({
-  base: './', // 👈 IMPORTANT for correct asset loading on Vercel
+  base: './', 
   plugins: [react(), tailwindcss()],
   resolve: {
     alias: {
@@ -12,6 +12,6 @@ export default defineConfig({
     },
   },
   build: {
-    outDir: 'dist' // 👈 default Vite output folder
+    outDir: 'dist'
   },
 })
