@@ -199,23 +199,23 @@ const Portfolio = () => {
 
               {/* CTA Buttons */}
               <div className="flex flex-col sm:flex-row justify-center gap-4 sm:gap-6 mb-16 sm:mb-20 px-4">
-                <Button 
-                  size="lg" 
-                  className="w-full sm:w-auto px-8 py-4 sm:px-10 sm:py-5 text-base sm:text-lg font-semibold bg-gradient-to-r from-blue-500 to-purple-600 hover:from-blue-600 hover:to-purple-700 shadow-2xl hover:shadow-blue-500/25 transition-all duration-300 hover:scale-105 group text-white"
-                  onClick={() => {
-                    const resumeUrl = '/resume.pdf';
-                    const link = document.createElement('a');
-                    link.href = resumeUrl;
-                    link.download = 'Gokulraj_S_Resume.pdf';
-                    document.body.appendChild(link);
-                    link.click();
-                    document.body.removeChild(link);
-                  }}
-                
-                >
-                  <Download className="mr-3 h-5 w-5 sm:h-6 sm:w-6 group-hover:animate-bounce" />
-                  Download Resume
-                </Button>
+               <Button
+                size="lg"
+                className="w-full sm:w-auto px-8 py-4 sm:px-10 sm:py-5 text-base sm:text-lg font-semibold bg-gradient-to-r from-blue-500 to-purple-600 hover:from-blue-600 hover:to-purple-700 shadow-2xl hover:shadow-blue-500/25 transition-all duration-300 hover:scale-105 group text-white"
+                onClick={() => {
+                  const resumeUrl = '/resume.pdf';
+                  const link = document.createElement('a');
+                  link.href = resumeUrl;
+                  link.setAttribute('download', 'Gokulraj_S_Resume.pdf');
+                  link.setAttribute('target', '_blank'); // Optional: Open in new tab
+                  document.body.appendChild(link);
+                  link.click();
+                  document.body.removeChild(link);
+                }}
+              >
+                <Download className="mr-3 h-5 w-5 sm:h-6 sm:w-6 group-hover:animate-bounce" />
+                Download Resume
+              </Button>
                 <Button 
                   variant="outline" 
                   size="lg"
