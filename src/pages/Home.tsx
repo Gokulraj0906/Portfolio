@@ -38,11 +38,11 @@ const Portfolio = () => {
   }, []);
 
   const skills = {
-    languages: ['Python', 'SQL', 'Java', 'JavaScript', 'C/C++'],
-    frameworks: ['Pandas', 'NumPy', 'Scikit-Learn', 'TensorFlow', 'PyTorch', 'MXNet'],
-    tools: ['Power BI', 'Tableau', 'AWS', 'Postman', 'Jira'],
-    databases: ['MongoDB', 'PostgreSQL', 'MySQL', 'SQLite'],
-    platforms: ['PyCharm', 'Jupyter', 'VS Code', 'Apache Spark', 'Hadoop']
+    languages: ['Python', 'SQL', 'Java', 'JavaScript', 'C/C++', 'R', 'PHP', 'Bash/Shell', 'HTML/CSS'],
+    frameworks: ['Pandas', 'NumPy', 'Scikit-Learn', 'TensorFlow', 'PyTorch', 'MXNet','Qiskit', 'Flask', 'Django','FastAPI', 'Streamlit', 'Dash','React','Express.js'],
+    tools: ['Power BI', 'Tableau', 'AWS', 'Postman', 'Jira', 'Git'],
+    databases: ['MongoDB', 'PostgreSQL', 'MySQL', 'SQLite',],
+    platforms: ['PyCharm','IntelliJ IDEA', 'Jupyter', 'VS Code', 'Apache Spark', 'Hadoop']
   };
 
   const projects = [
